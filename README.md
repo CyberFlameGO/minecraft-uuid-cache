@@ -11,7 +11,7 @@ Entering UUIDs without dashes will automatically convert with dashes sending no 
 If no data has been cached for the username in 37 days it will send a request to Mojang.
 
 ```js
-const getUUID = require('./index');
+const getUUID = require('minecraft-uuid-cache');
 
 getUUID("eea2d4fd-a8b8-413b-9439-f06faaf7e109")
     .then(console.log) // Result
