@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-uuid-cache",
+  "version": "1.0.0",
+  "dependencies": {
+    "phin": "^3.5.1",
+    "quick.db": "^7.1.3"
+  },
+  "description": "Cache UUIDs associated with their usernames.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/caykey/minecraft-uuid-cache"
+  },
+  "keywords": [
+    "minecraft",
+    "cache",
+    "uuid"
+  ],
+  "author": "CactiveNetwork",
+  "license": "SEE LICENCE IN LICENCE.md"
+}
