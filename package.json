@@ -1,6 +1,6 @@
 {
   "name": "minecraft-uuid-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "phin": "^3.5.1",
     "quick.db": "^7.1.3"

@@ -13,8 +13,8 @@ If no data has been cached for the username in 37 days it will send a request to
 ```js
 const getUUID = require('minecraft-uuid-cache');
 
-getUUID("eea2d4fd-a8b8-413b-9439-f06faaf7e109")
-    .then(console.log) // Result
+getUUID("caykie")
+    .then(console.log) // eea2d4fd-c-413b-9439-f06faaf7e109
     .catch(console.log); // Error
 ```
 
